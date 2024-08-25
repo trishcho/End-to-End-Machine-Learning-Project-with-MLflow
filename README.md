@@ -6,6 +6,8 @@ MLOps - This project is an end-to-end implementation of a regression model using
 - [@Trishul](https://www.github.com/trishcho)
 
 ![AWS](https://github.com/user-attachments/assets/0577072d-f9ed-440f-bd83-c9dad3ed969d)
+![git](https://github.com/user-attachments/assets/6de4696c-9af1-4af6-b2b8-2afc4dc17bee)
+![mlgf](https://github.com/user-attachments/assets/e9e05090-7127-4975-9379-9d1e7fc27937)
 
   
 ## Workflows
