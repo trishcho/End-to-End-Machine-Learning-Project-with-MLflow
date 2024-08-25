@@ -9,7 +9,7 @@ __version__ = "0.0.0"
 REPO_NAME = "End-to-End-Machine-Learning-Project-with-MLflow"
 AUTHOR_USER_NAME = "trishcho"
 SRC_REPO = "mlProject"
-AUTHOR_EMAIL = "trishulchowdhury.23@gmail.com"
+AUTHOR_EMAIL = "trishulchowdhury23.us@gmail.com"
 
 
 setuptools.setup(

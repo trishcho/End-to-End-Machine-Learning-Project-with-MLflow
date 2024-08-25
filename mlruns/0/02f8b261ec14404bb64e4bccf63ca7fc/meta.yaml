@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/trishulchowdhury/Documents/GitHub/End-to-End-Machine-Learning-Project-with-MLflow/mlruns/0/02f8b261ec14404bb64e4bccf63ca7fc/artifacts
+end_time: 1724517420495
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 02f8b261ec14404bb64e4bccf63ca7fc
+run_name: treasured-finch-555
+run_uuid: 02f8b261ec14404bb64e4bccf63ca7fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724517419353
+status: 3
+tags: []
+user_id: trishulchowdhury

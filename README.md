@@ -21,9 +21,9 @@
 Clone the repository
 
 ```bash
-https://github.com/trishcho/End-to-end-Machine-Learning-Project-with-MLflow
+https://github.com/trishcho/End-to-End-Machine-Learning-Project-with-MLflow
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01- Create an environment after opening the repository
 
 ```bash
 conda create -n mlproj python=3.8 -y
@@ -63,20 +63,21 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
-python script.py
+import dagshub
+dagshub.init(repo_owner='trishulchowdhury23.us', repo_name='End-to-End-Machine-Learning-Project-with-MLflow', mlflow=True)
+
+import mlflow
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/trishulchowdhury23.us/End-to-End-Machine-Learning-Project-with-MLflow.mlflow
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
-
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+export MLFLOW_TRACKING_USERNAME=trishulchowdhury23.us 
 
 ```
 
@@ -115,7 +116,7 @@ export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+    - Save the URI: 913524930035.dkr.ecr.us-east-1.amazonaws.com/mlproj
 
 	
 ## 4. Create EC2 machine (Ubuntu) 

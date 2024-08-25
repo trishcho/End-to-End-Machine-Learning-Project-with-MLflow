@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/trishulchowdhury/Documents/GitHub/End-to-End-Machine-Learning-Project-with-MLflow/mlruns/0/6cc75f45b72d41bca45b1b89bc49486f/artifacts
+end_time: 1724518491613
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6cc75f45b72d41bca45b1b89bc49486f
+run_name: aged-slug-295
+run_uuid: 6cc75f45b72d41bca45b1b89bc49486f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724518490506
+status: 3
+tags: []
+user_id: trishulchowdhury
