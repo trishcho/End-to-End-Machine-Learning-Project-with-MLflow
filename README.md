@@ -4,6 +4,9 @@ MLOps - This project is an end-to-end implementation of a regression model using
 ## Authors
 
 - [@Trishul](https://www.github.com/trishcho)
+
+![AWS](https://github.com/user-attachments/assets/0577072d-f9ed-440f-bd83-c9dad3ed969d)
+
   
 ## Workflows
 
