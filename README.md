@@ -1,5 +1,6 @@
 # End-to-End-Machine-Learning-Project-with-MLflow
 
+MLOps - This project is an end-to-end implementation of a regression model using MLflow, Docker, FastAPI, and an AWS EC2 instance with AWS ECR and GitHub Actions for deployment.
 
 ## Workflows
 
